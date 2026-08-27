@@ -40,9 +40,9 @@ defaults:
 # site domain, full URL to the production location of your collection
 url: 
 # path to location on the domain if necessary e.g. /digital/hjccc
-baseurl: bwm-zhang.github.io
+baseurl: zhanglithium.github.io
 # location of code, the full url to your github repository
-source-code: https://github.com/zhanglithium/bwm-zhang.github.io
+source-code: https://github.com/zhanglithium/zhanglithium.github.io
 
 ##########
 # SITE SETTINGS
