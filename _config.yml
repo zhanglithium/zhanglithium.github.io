@@ -51,7 +51,7 @@ source-code: https://github.com/zhanglithium/zhanglithium.github.io
 # These fields control what appears on your homepage cover/title page
 #
 # title: Main title displayed prominently on the cover page (required)
-title: DH 8991
+title: Enhanced OMI NO${_2} (EON)
 #
 # author: Appears as "by [Author Name]" beneath the title on cover page (optional)
 # - If provided, this displays instead of the tagline
@@ -65,7 +65,7 @@ author: Sixuan Zhang
 # - Use for descriptive subtitle or project tagline
 # - Can also use HTML for multi-line display:
 #   tagline: "A Digital Edition<br>Published 2024"
-tagline: Intro to Digital Humanties Fall
+tagline: A high resloution satellite NO2 product back to 2004
 #
 # METADATA FIELDS (for search engines and social media):
 #
