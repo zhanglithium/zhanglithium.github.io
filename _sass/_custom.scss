@@ -49,3 +49,17 @@ body {
         width: 100%;
     }
 }
+
+/* Reduce spacing between page title and essay title */
+
+#scrolly #page-title {
+    margin-bottom: 0 !important;
+}
+
+#scrolly #page-title + .row.step {
+    margin-top: 0 !important;
+}
+
+#scrolly #page-title + .row.step .essay-main > h2:first-child {
+    margin-top: 0.75rem !important;
+}
