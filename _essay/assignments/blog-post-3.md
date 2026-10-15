@@ -3,10 +3,17 @@ title: Blog Post 3
 order: 5
 part: Assignments
 ---
-
-# Generative AI and Critical Making: Does the Process Still Matter?
+## Generative AI and Critical Making: Does the Process Still Matter?
 Generative AI has transformed the process of digital making. One can write a prompt to get any text, image, video, or code. Thus, making has become simpler now, but the question remains about what it means to be a maker if the machine does most of the job. In Critical Making in the Age of AI, Salter and Johnson discuss the relationship between technology and creativity. The assigned chapters Map and Generation, along with Crafting Futures in the Age of AI, encourage us to consider the decisions involved in making digital artifacts. The importance of making lies not only in the product but also in the process, which offers opportunities to experiment, observe the work of the tools used, and see what their limitations are. Generative AI changes the process, making it easier since one can perform many technical procedures by giving simple instructions.
+
+
 I attended their workshop, Critical Making: Grammars, Hypertexts, and Play in the Age of AI. It included a session demonstrating how to use Claude Cowork to create a video based on the topics suggested by prompts. The created video showed how AI impacts people's everyday lives and how people may relate to it, all accompanied by lively music. The workshop showed us all how fast ideas could be turned into digital artifacts with help of generative AI. Earlier, this was not possible without advanced skills; instead, now it is possible by giving simple commands. This made me think about whether faster creation also means losing opportunities to understand the making process.
+
+
 They later introduced Twine and Tracery, two open-source tools for digital creation. The main feature of Twine is its ability to connect passages to create interactive stories, while Tracery is responsible for generating text based on user-defined algorithms. The two tools can provide different types of content, but the user can look at the methods that were applied for content generation. Overall, these tools demonstrate that the idea of computer generation was known long before the generative AI tools we have these days. Unlike the Claude Cowork case, the use of Twine and Tracery makes it possible for users to take part in the generation process.
+
+
 I have faced similar questions in my own research. I use a generative model to reconstruct high-resolution NO2 patterns from historical satellite observations. The model can generate detailed spatial patterns, but these results are predictions rather than satellite observations. The produced product still needs to be validated before treating it as a reliable source to analyze inequality. Generative AI can produce convincing results, but we remain responsible for evaluating their reliability.
+
+
 For me, critical making does not mean not using generative AI. It requires using these tools with an understanding of their possibilities and limitations. Generative AI can reduce the level of technical difficulty and provide more possibilities for people to engage in digital making. But at the same time, it can make people disconnected from parts of the process. The challenge is to take advantage of this technology without giving up our ability to question, modify, and evaluate what it produces. The value of making lies not only in what we create, but also in what we learn through the process.
