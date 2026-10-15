@@ -3,7 +3,6 @@ title: Blog Post 2
 order: 4
 part: Assignments
 ---
-
 ## Mapping Historical Air Pollution Inequality: Digital Methods in My Research
 My research uses machine learning to reconstruct high-resolution nitrogen dioxide (NO2) from satellite observations back to 2004. One motivation is to investigate intraurban air pollution inequality over decades. As before 2018, only low-resolution NO2 products are available and do not have the ability to observe the neighborhood-level inequality. The reconstructed data could support historical air pollution inequality research, but the next challenge is how to turn these data into maps that people can understand and use.
 
