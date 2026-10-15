@@ -6,13 +6,18 @@ part: Assignments
 ## Maps, Data, and Reality: Critical Summary of Week 5
 The readings in week 5 bring me new insights into understanding the gap between science and humanities. They show the story behind maps, the information missed, and the usage of digital tools. Together, they claim that maps and data do not simply reflect the world. They are made through choices, and those choices shape what we can know.
 
+
 In Maps as Data, Katherine McDonough traces three waves in digitization of historical maps: scanning, manual data creation with GIS, and automatic data creation from very large map collections. Scanning made maps easier to access, but researchers still studied them one by one. GIS allows scholars to turn places and features on maps into points, lines, and polygons, but it takes time and may not agree with uncertain historical features very well. McDonough presents MapReader as a partial solution, which automatically labels the interest area using a machine learning model by dividing maps into small patches.
+
 
 Crystal Nicole Eddins raises a different concern in _Fugitivities and Futures: Black Studies in the Digital Era_. She explores advertisements used by enslavers to find and recapture runaway slaves. These records include people's names, skills, relationships, and potential locations. However, the records were created as tools of control. Eddins argues that putting records into a database without questioning their purpose is repeating the surveillance model. She reads and uses the ads against their original purpose to study how people sought freedom and helped others. The point is not to ignore data analysis, but to reveal the point of view contained in the data and whose voices are excluded from it. 
 
+
 Jeremy Hsu’s piece on Google Earth raises similar concerns, as generative AI makes it easy to create fake satellite images that are hard to distinguish from real ones. The case shows that digital technology can not only change how we study maps, but also challenge our trust in what maps show.
 
+
 I agree with the caution shared by these readings. Yet I think the issue goes beyond whether data is used for good or bad purposes. Data is already selected by the people who create them. A historical map may leave out a community. An escape ad may describe a person through an enslaver's view. A machine learning model may repeat these limits or introduce new errors. Digital tools cannot remove these problems simply by creating more data.
+
 
 What I find most interesting is how McDonough and Eddins respond to these limits. McDonough does not simply use machine learning to extract more features. She allows researchers to define labels based on their questions. For example, “railspace” considers the wider area affected by rail development rather than just railway lines. Similarly, Eddins does not simply count people in historical records. She uses the same records to understand their relationships, choices, and resistance. Both show that the value of data depends not only on what is recorded, but also on what questions we ask and how we interpret the results.
 These readings also make me think about the gap between science and humanities. Science often studies the world through broad patterns and general rules. This helps us understand large-scale changes, but may overlook individual experiences. What I find valuable about the humanities is its attention to individuals. It asks how people lived, what they chose, and what events meant to them. This gives history a human meaning that numbers alone cannot provide.
