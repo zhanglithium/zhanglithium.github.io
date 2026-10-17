@@ -18,7 +18,7 @@ permalink: /
   <section class="szp-hero" aria-labelledby="szp-hero-title">
     <div class="szp-hero-copy">
       <p class="szp-kicker">RESEARCH · MAPPING · DIGITAL METHODS</p>
-      <h1 id="szp-hero-title">Sixuan Zhang <span>— Seeing the Atmosphere</span></h1>
+      <h1 id="szp-hero-title">Sixuan Zhang <span> Seeing the Atmosphere</span></h1>
       <p class="szp-lead">Satellite observations, machine learning, and the spatial stories of air pollution.</p>
       <p class="szp-description">I explore how digital methods can reconstruct and visualize historical patterns of atmospheric nitrogen dioxide (NO₂), and how those maps can inform questions about environmental inequality.</p>
       <div class="szp-actions">
