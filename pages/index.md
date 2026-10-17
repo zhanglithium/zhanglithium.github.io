@@ -19,12 +19,13 @@ hero:
   image:
     file: "/assets/img/la_triptych_omi_eon_tropomi.png"
     alt: "Triptych comparing OMI, EON, and TROPOMI NO2 over Los Angeles"
-    caption: "OMI · EON · TROPOMI · Los Angeles, July 2, 2025"
+    caption_title: "OMI, EON, and TROPOMI over Los Angeles."
+    caption: "This triptych shows how EON reconstructs finer spatial detail between coarse OMI observations and high-resolution TROPOMI observations. July 2, 2025 (local time)."
 
-    column_size: "0.95fr"       # Right column: 0.75fr = narrower, 1.3fr = wider
+    column_size: "1.30fr"       # Larger right-side image; 0.95fr = previous size
     width: "100%"              # Picture width INSIDE its box: e.g. 80%, 100%
     height: "auto"             # Picture height: auto, 250px, 350px (keeps box height explicit)
-    max_height: "460px"        # Maximum picture height when height is auto
+    max_height: "520px"        # Upper limit; actual height also depends on picture width
     frame_height: "auto"       # Exact beige frame height: auto or e.g. 380px
     frame_min_height: "330px"  # Minimum height of beige picture frame
     move_x: "0px"             # Move the entire frame right (+) or left (-)
@@ -42,13 +43,8 @@ about:
 
 # 3. RESEARCH SECTION
 research:
-  heading: "Seeing NO₂ over Los Angeles"
-  introduction: "My current project uses EON to reconstruct finer-scale NO₂ over Los Angeles and examine how pollution inequality changes across time. The figures below move from satellite observation and reconstruction to long-term inequality analysis."
-  triptych:
-    file: "/assets/img/la_triptych_omi_eon_tropomi.png"
-    alt: "Triptych showing OMI observation, EON reconstruction, and TROPOMI observation over Los Angeles"
-    title: "OMI, EON, and TROPOMI over Los Angeles."
-    caption: "This triptych shows how EON reconstructs finer spatial detail between coarse OMI observations and high-resolution TROPOMI observations."
+  heading: "Environmental inequality over time"
+  introduction: "My current project uses EON to reconstruct finer-scale NO₂ over Los Angeles and examine how pollution inequality changes across time. The two figures below show relative inequality by poverty, income–race, and race/ethnicity."
   inequality_figures:
     - file: "/assets/img/la_relative_inequality_2004_2025.png"
       alt: "Relative NO2 inequality over Los Angeles from 2004 to 2025 for poverty and income-race inequality"
