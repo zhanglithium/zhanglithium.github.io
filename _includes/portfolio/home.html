@@ -1,1 +1,120 @@
+<!--
+  Portfolio layout for the simple YAML settings in pages/index.md.
+  Ordinary homepage edits should be made in pages/index.md, not here.
+-->
+<div class="szp-home">
+  <div class="szp-topline">
+    <span class="szp-overline">ATMOSPHERIC SCIENCE <span aria-hidden="true">/</span> DIGITAL HUMANITIES</span>
+    <nav class="szp-shortcuts" aria-label="Homepage sections">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#dh-practice">DH Practice</a>
+      <a href="{{ '/coursework/' | relative_url }}">Coursework ↗</a>
+    </nav>
+  </div>
 
+  <section class="szp-hero" aria-labelledby="szp-hero-title"
+    style="--szp-hero-image-column: {{ page.hero.image.column_size | default: '0.95fr' | escape }};">
+    <div class="szp-hero-copy">
+      <p class="szp-kicker">{{ page.hero.label | escape }}</p>
+      <h1 id="szp-hero-title">{{ page.hero.name | escape }} <span>{{ page.hero.headline | escape }}</span></h1>
+      <p class="szp-lead">{{ page.hero.lead | escape }}</p>
+      <p class="szp-description">{{ page.hero.description | escape }}</p>
+      <div class="szp-actions">
+        <a class="szp-button" href="#research">{{ page.hero.primary_button | escape }} <span aria-hidden="true">↗</span></a>
+        <a class="szp-link" href="{{ '/coursework/' | relative_url }}">{{ page.hero.secondary_link | escape }} <span aria-hidden="true">→</span></a>
+      </div>
+    </div>
+    <figure class="szp-hero-figure"
+      style="--szp-hero-move-x: {{ page.hero.image.move_x | default: '0px' | escape }};
+             --szp-hero-move-y: {{ page.hero.image.move_y | default: '0px' | escape }};">
+      <div class="szp-hero-visual"
+        style="--szp-hero-frame-height: {{ page.hero.image.frame_height | default: 'auto' | escape }};
+               --szp-hero-frame-min-height: {{ page.hero.image.frame_min_height | default: '330px' | escape }};
+               --szp-hero-image-horizontal-align: {{ page.hero.image.horizontal_align | default: 'center' | escape }};
+               --szp-hero-image-vertical-align: {{ page.hero.image.vertical_align | default: 'center' | escape }};">
+        <img src="{{ page.hero.image.file | relative_url }}"
+          alt="{{ page.hero.image.alt | escape }}" loading="eager"
+          style="--szp-hero-image-width: {{ page.hero.image.width | default: '100%' | escape }};
+                 --szp-hero-image-height: {{ page.hero.image.height | default: 'auto' | escape }};
+                 --szp-hero-image-max-height: {{ page.hero.image.max_height | default: '460px' | escape }};
+                 --szp-hero-image-fit: {{ page.hero.image.fit | default: 'contain' | escape }};
+                 --szp-hero-image-position: {{ page.hero.image.position | default: 'center' | escape }};">
+      </div>
+      <figcaption>{{ page.hero.image.caption | escape }}</figcaption>
+    </figure>
+  </section>
+
+  <section class="szp-section szp-about" id="about" aria-labelledby="szp-about-heading">
+    <div class="szp-section-meta">01 / ABOUT</div>
+    <div>
+      <h2 id="szp-about-heading">{{ page.about.heading | escape }}</h2>
+      <p>{{ page.about.text | escape }}</p>
+      <a class="szp-inline-link" href="{{ '/about.html' | relative_url }}">{{ page.about.link_text | escape }} <span aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+
+  <section class="szp-section szp-work" id="research" aria-labelledby="szp-research-heading">
+    <div class="szp-section-meta">02 / RESEARCH</div>
+    <div>
+      <h2 id="szp-research-heading">{{ page.research.heading | escape }}</h2>
+      <p class="szp-research-intro">{{ page.research.introduction | escape }}</p>
+
+      <article class="szp-feature-block">
+        <figure class="szp-research-figure szp-research-figure-large">
+          <img src="{{ page.research.triptych.file | relative_url }}" alt="{{ page.research.triptych.alt | escape }}">
+          <figcaption><strong>{{ page.research.triptych.title | escape }}</strong> {{ page.research.triptych.caption | escape }}</figcaption>
+        </figure>
+      </article>
+
+      <div class="szp-figure-grid">
+      {% for figure in page.research.inequality_figures %}
+        <figure class="szp-research-figure">
+          <img src="{{ figure.file | relative_url }}" alt="{{ figure.alt | escape }}">
+          <figcaption><strong>{{ figure.title | escape }}</strong> {{ figure.caption | escape }}</figcaption>
+        </figure>
+      {% endfor %}
+      </div>
+
+      <div class="szp-grid szp-grid-research-notes">
+      {% for item in page.research.research_cards %}
+        <article class="szp-tile">
+          <span class="szp-tile-index">0{{ forloop.index }}</span>
+          <h3>{{ item.heading | escape }}</h3>
+          <p>{{ item.text | escape }}</p>
+        </article>
+      {% endfor %}
+      </div>
+
+      <p class="szp-small szp-method-note">{{ page.research.method_note | escape }}</p>
+    </div>
+  </section>
+
+  <section class="szp-section" id="dh-practice" aria-labelledby="szp-dh-heading">
+    <div class="szp-section-meta">03 / DIGITAL HUMANITIES</div>
+    <div>
+      <h2 id="szp-dh-heading">{{ page.dh_practice.heading | escape }}</h2>
+      <p>{{ page.dh_practice.text | escape }}</p>
+      <div class="szp-pill-list" aria-label="Digital humanities areas">
+      {% for topic in page.dh_practice.topics %}
+        <span>{{ topic | escape }}</span>
+      {% endfor %}
+      </div>
+      <p class="szp-small">{{ page.dh_practice.note | escape }}</p>
+    </div>
+  </section>
+
+  <section class="szp-coursework-banner" id="coursework" aria-labelledby="szp-coursework-heading">
+    <div>
+      <span class="szp-banner-label">{{ page.coursework.label | escape }}</span>
+      <h2 id="szp-coursework-heading">{{ page.coursework.heading | escape }}</h2>
+      <p>{{ page.coursework.text | escape }}</p>
+    </div>
+    <a class="szp-button szp-button-light" href="{{ '/coursework/' | relative_url }}">{{ page.coursework.button | escape }} <span aria-hidden="true">↗</span></a>
+  </section>
+
+  <footer class="szp-footer">
+    <span>{{ page.footer.left | escape }}</span>
+    <span>{{ page.footer.right | escape }}</span>
+  </footer>
+</div>
